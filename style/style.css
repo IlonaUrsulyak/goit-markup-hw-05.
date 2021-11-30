@@ -317,19 +317,22 @@ img {
   margin-right: 30px;
   position: relative;
 }
+
 .text-activity {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 27px 83px;
+  padding: 27px;
   width: 100%;
   background: rgba(47, 48, 58, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .activity-item:last-child {
@@ -481,7 +484,6 @@ img {
 
 .footer {
   background-color: #2f303a;
-  max-width: 1600px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
